@@ -1,0 +1,7 @@
+// limit slicer to values that exist in fact table
+Let say you have a fact table (Tbl_fact)
+
+DAX 1: Create a measure
+Slicer Filter = COUNTROWS(Tbl_fact)
+
+Note: Add this measure as a visual filter to the slicer with it restricted to showing a count > 0 or is not blank.
